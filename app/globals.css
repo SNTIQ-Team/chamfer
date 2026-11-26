@@ -434,23 +434,7 @@
     background-color: rgba(0, 82, 255, 0.45);
   }
 
-  /* Read-aloud karaoke highlight (CSS Custom Highlight API, painted from
-     core/shell/speechHighlight.ts). Unsupported browsers just skip it. */
-  ::highlight(sntiq-tts) {
-    background-color: rgba(0, 82, 255, 0.22);
-    color: inherit;
-  }
 
-  .dark ::highlight(sntiq-tts) {
-    background-color: rgba(0, 82, 255, 0.4);
-  }
-
-  /* High contrast: solid yellow on black text — the HC reader convention.
-     Must come after the .dark variant so it wins at equal specificity. */
-  .high-contrast ::highlight(sntiq-tts) {
-    background-color: #FFFF00;
-    color: #000000;
-  }
 }
 
 /* --- 3. COMPONENTS --- */
