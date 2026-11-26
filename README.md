@@ -42,4 +42,4 @@ The public services accept browser requests from `http://localhost:3000`. For an
 
 ## Licensing
 
-SNTIQ software uses Apache-2.0. SNTIQ’s original documentation and editorial material use CC BY 4.0. Third-party material and fonts retain their own terms. [Apache license](LICENSE) · [Source notices and licensing](LICENSING.md)
+SNTIQ licenses the Chamfer code in this repository under Apache-2.0 and its original Chamfer documentation and editorial material under CC BY 4.0. Third-party material and fonts retain their own terms. [Apache license](LICENSE) · [Source notices and licensing](LICENSING.md)
